@@ -34,3 +34,15 @@ matrix:
       env: TOX_ENV=setup
       install: pip install tox
       script: tox -e $TOX_ENV
+    - python: "3.4"
+      env: TOX_ENV=setup
+      install: pip install tox
+      script: tox -e $TOX_ENV
+    - python: "3.5"
+      env: TOX_ENV=setup
+      install: pip install tox
+      script: tox -e $TOX_ENV
+    - python: "pypy"
+      env: TOX_ENV=setup
+      install: pip install tox
+      script: tox -e $TOX_ENV
